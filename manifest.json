@@ -1,8 +1,6 @@
 {
   "name": "GitHub Contributions",
-  "version": "1.1.0",
-  "sdkVersion": "2.1",
-  "renderMode": "native",
+  "version": "1.1.1",
   "entry": "index.js",
   "description": "Display your GitHub contribution graph - the famous green squares showing your daily commits and activity throughout the year.",
   "author": "MyWallpaper",
@@ -13,16 +11,8 @@
     "developer"
   ],
   "license": "MIT",
-  "homepage": "https://github.com/rayandu924/github-contributions-widget",
-  "repository": "https://github.com/rayandu924/github-contributions-widget",
-  "capabilities": {
-    "hotReload": true,
-    "systemEvents": [
-      "viewport:resize",
-      "theme:change",
-      "visibility:change"
-    ]
-  },
+  "homepage": "https://github.com/MyWallpapers/github-contributions-widget",
+  "repository": "https://github.com/MyWallpapers/github-contributions-widget",
   "permissions": {
     "storage": {
       "quota": 524288
