@@ -1,6 +1,6 @@
 {
   "name": "GitHub Contributions",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "entry": "index.js",
   "description": "Display your GitHub contribution graph - the famous green squares showing your daily commits and activity throughout the year.",
   "author": "MyWallpaper",
@@ -44,110 +44,148 @@
   "settings": {
     "appearance": {
       "type": "section",
-      "label": "Appearance"
+      "content": {
+        "label": "Appearance"
+      }
     },
     "showHeader": {
       "type": "boolean",
-      "label": "Show Header",
-      "default": true
+      "content": {
+        "label": "Show Header",
+        "default": true
+      }
     },
     "showFooter": {
       "type": "boolean",
-      "label": "Show Footer (Legend & Stats)",
-      "default": true
+      "content": {
+        "label": "Show Footer (Legend & Stats)",
+        "default": true
+      }
     },
     "showLabels": {
       "type": "boolean",
-      "label": "Show Month Labels",
-      "default": true
+      "content": {
+        "label": "Show Month Labels",
+        "default": true
+      }
     },
     "showDayLabels": {
       "type": "boolean",
-      "label": "Show Day Labels",
-      "default": true
+      "content": {
+        "label": "Show Day Labels",
+        "default": true
+      }
     },
     "showStats": {
       "type": "boolean",
-      "label": "Show Stats",
-      "default": true
+      "content": {
+        "label": "Show Stats",
+        "default": true
+      }
     },
     "colors": {
       "type": "section",
-      "label": "Contribution Colors"
+      "content": {
+        "label": "Contribution Colors"
+      }
     },
     "colorLevel0": {
       "type": "color",
-      "label": "Empty (0)",
-      "default": "#161b22"
+      "content": {
+        "label": "Empty (0)",
+        "default": "#161b22"
+      }
     },
     "colorLevel1": {
       "type": "color",
-      "label": "Low (1)",
-      "default": "#0e4429"
+      "content": {
+        "label": "Low (1)",
+        "default": "#0e4429"
+      }
     },
     "colorLevel2": {
       "type": "color",
-      "label": "Medium (2)",
-      "default": "#006d32"
+      "content": {
+        "label": "Medium (2)",
+        "default": "#006d32"
+      }
     },
     "colorLevel3": {
       "type": "color",
-      "label": "High (3)",
-      "default": "#26a641"
+      "content": {
+        "label": "High (3)",
+        "default": "#26a641"
+      }
     },
     "colorLevel4": {
       "type": "color",
-      "label": "Max (4)",
-      "default": "#39d353"
+      "content": {
+        "label": "Max (4)",
+        "default": "#39d353"
+      }
     },
     "background": {
       "type": "section",
-      "label": "Background"
+      "content": {
+        "label": "Background"
+      }
     },
     "showBackground": {
       "type": "boolean",
-      "label": "Show Background",
-      "default": true
+      "content": {
+        "label": "Show Background",
+        "default": true
+      }
     },
     "backgroundColor": {
       "type": "gradient",
-      "label": "Background Style",
-      "default": "linear-gradient(135deg, #0d1117 0%, #161b22 100%)"
+      "content": {
+        "label": "Background Style",
+        "default": "linear-gradient(135deg, #0d1117 0%, #161b22 100%)"
+      }
     },
     "backgroundBlur": {
       "type": "range",
-      "label": "Background Blur",
-      "min": 0,
-      "max": 20,
-      "step": 1,
-      "default": 10
+      "content": {
+        "label": "Background Blur",
+        "min": 0,
+        "max": 20,
+        "step": 1,
+        "default": 10
+      }
     },
     "data": {
       "type": "section",
-      "label": "Data Settings"
+      "content": {
+        "label": "Data Settings"
+      }
     },
     "displayMode": {
       "type": "select",
-      "label": "Display Mode",
-      "options": [
-        {
-          "value": "year",
-          "label": "Full Year"
-        },
-        {
-          "value": "month",
-          "label": "Current Month"
-        }
-      ],
-      "default": "year"
+      "content": {
+        "label": "Display Mode",
+        "options": [
+          {
+            "value": "year",
+            "label": "Full Year"
+          },
+          {
+            "value": "month",
+            "label": "Current Month"
+          }
+        ],
+        "default": "year"
+      }
     },
     "refreshInterval": {
       "type": "range",
-      "label": "Refresh (min)",
-      "min": 5,
-      "max": 60,
-      "step": 5,
-      "default": 30
+      "content": {
+        "label": "Refresh (min)",
+        "min": 5,
+        "max": 60,
+        "step": 5,
+        "default": 30
+      }
     }
   }
 }
