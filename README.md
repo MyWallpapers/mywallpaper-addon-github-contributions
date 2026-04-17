@@ -157,7 +157,7 @@ This widget requires the following permissions declared in `manifest.json`:
 
 ```bash
 # Clone the repository
-git clone https://github.com/rayandu924/github-contributions-widget.git
+git clone https://github.com/MyWallpapers/mywallpaper-addon-github-contributions.git
 
 # Navigate to the project
 cd github-contributions-widget

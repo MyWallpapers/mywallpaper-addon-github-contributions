@@ -11,8 +11,8 @@
     "developer"
   ],
   "license": "MIT",
-  "homepage": "https://github.com/MyWallpapers/github-contributions-widget",
-  "repository": "https://github.com/MyWallpapers/github-contributions-widget",
+  "homepage": "https://github.com/MyWallpapers/mywallpaper-addon-github-contributions",
+  "repository": "https://github.com/MyWallpapers/mywallpaper-addon-github-contributions",
   "permissions": {
     "storage": {
       "quota": 524288
